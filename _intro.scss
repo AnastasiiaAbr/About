@@ -1,0 +1,15 @@
+.intro {
+  text-align: center;
+  padding: 40px;
+  margin-top: 30px;
+
+  &__title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+
+  &__text {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}

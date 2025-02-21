@@ -1,0 +1,14 @@
+.image {
+    flex: 1 1 200px;
+
+    &:not(:last-of-type) {
+        margin-right: 10px;
+    }
+
+img{
+    object-fit: cover;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+}
+
+}

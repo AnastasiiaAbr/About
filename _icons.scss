@@ -1,0 +1,15 @@
+.icons {
+    display: flex;
+    margin: 30px 0;
+
+    &__item {
+        color: rgb(59, 55, 98);
+        &:not(:last-of-type) {
+            margin-right: 20px;
+        }
+    }
+
+    i {
+        font-size: 2rem;
+    }
+}
